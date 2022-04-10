@@ -1,0 +1,45 @@
+.main-header {
+    background-image: url(../../images/slider1-bg1.webp);
+    width: 100%;
+    padding: 8rem 0;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    img {
+        position: absolute;
+        left: 30%;
+    }
+    h1 {
+        transform: translateX(15.3px) translateY(-1.225px) !important;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 1;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #ffffff;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        left: 5%;
+        top: 10%;
+        position: absolute;
+    }
+    h2 {
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 1;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+    }
+}

@@ -1,0 +1,49 @@
+.footer-main {
+    .widget-logo {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    .desc {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 33px;
+        max-width: 250px;
+        margin-top: 0;
+    }
+    .widget-social {
+        display: flex;
+        a {
+            color: #457b9d;
+            font-size: 19px;
+            line-height: inherit;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.2s ease-in-out;
+            &:hover {
+                color: #ff5a5a;
+            }
+        }
+    }
+    .widget-title {
+        font-size: 24px;
+        margin-bottom: 39px;
+        padding-bottom: 17px;
+        position: relative;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-top: 0;
+        color: #1d3557;
+    }
+    li {
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        transition: all 0.5s ease 0s;
+        margin-bottom: 27px;
+        a {
+            display: block;
+            color: black;
+        }
+    }
+}

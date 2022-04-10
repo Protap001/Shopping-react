@@ -1,0 +1,240 @@
+.account {
+    margin-top: 95px;
+    margin-bottom: 150px;
+    display: inline-block;
+    background-color: rgb(241, 250, 238);
+    width: 100%;
+    .page-header-area {
+        padding: 62px 0px 57px;
+        .breadcrumb-item {
+            font-size: 18px;
+            line-height: 1;
+            padding-left: 0.5rem;
+            display: list-item;
+            a {
+                color: #457b9d;
+                text-decoration: none;
+                line-height: inherit;
+            }
+        }
+        .breadcrumb-item.active {
+            color: #457b9d;
+            cursor: pointer;
+        }
+        .page-header-title {
+            font-size: 48px;
+            margin-bottom: 0;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 0;
+            color: #1d3557;
+        }
+        .showing-pagination-results {
+            color: #457b9d;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 13px;
+            line-height: 1.2;
+            margin-top: 0;
+            cursor: pointer;
+        }
+    }
+}
+
+.section-top-space {
+    padding-top: 110px;
+}
+.post-three-item {
+    .thumb {
+        border-radius: 30px;
+        display: block;
+        overflow: hidden;
+        z-index: 1;
+        line-height: inherit;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+    }
+    .title {
+        font-size: 36px !important;
+        line-height: 46px;
+        margin-bottom: 28px;
+        margin-top: -9px;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        color: #1d3557;
+        display: block;
+        a {
+            color: #1d3557;
+            line-height: inherit;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .desc {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 27px;
+        margin-top: 0;
+        color: #457b9d;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+        visibility: visible;
+    }
+    .meta {
+        align-items: center;
+        color: #1d3557;
+        display: flex;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        .author-thumb {
+            border-radius: 50%;
+            min-width: 60px;
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        .author-name {
+            color: #1d3557;
+            margin-bottom: 0;
+            margin-left: 19px;
+            line-height: inherit;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        span {
+            font-size: 14px;
+            margin-left: 24px;
+        }
+        .post-date {
+            color: #1d3557;
+            font-size: 14px;
+            display: inline-block;
+            margin-left: 26px;
+            line-height: inherit;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}
+
+.post-two-item {
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 5px;
+    border-radius: 30px;
+   
+    overflow: hidden;
+    &:hover {
+        .thumb {
+            transform: scale(1.1);
+            
+        }
+    }
+
+    .thumb {
+        border-radius: 30px;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        line-height: inherit;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        transform: scale(1);
+        transition: 0.2s ease-in-out;
+    }
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+    .content {
+        background-color: #ffffff;
+        bottom: 0;
+        max-width: 330px;
+        padding: 42px 30px 8px;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        transform: translateY(0);
+        transition: 0.3s ease-in-out;
+        &:hover {
+            transform: translateY(-10%);
+            overflow: hidden;
+        }
+        .title {
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 30px;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            margin-top: 0;
+            color: #1d3557;
+            a {
+                color: #1d3557;
+                line-height: inherit;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+    .meta {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        .author-thumb {
+            border-radius: 50%;
+            min-width: 60px;
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        .author-info {
+            color: #1d3557;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1;
+            .author-name {
+                color: #1d3557 !important;
+                display: block !important;
+                font-weight: 600 !important;
+                margin-bottom: 11px !important;
+                line-height: inherit !important;
+                font-size: 15px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            span {
+                font-size: 14px;
+                // margin-left: 8px;
+            }
+        }
+        .post-date {
+            color: #1d3557;
+            font-size: 14px;
+            display: inline-block;
+            place-self: flex-end;
+            line-height: inherit;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .btn-blog-link {
+        color: #1d3557;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-size: 14px;
+        float: right;
+        line-height: 1;
+        margin-top: 21px;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

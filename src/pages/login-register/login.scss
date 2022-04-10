@@ -1,0 +1,304 @@
+.account {
+    margin-top: 95px;
+    // margin-bottom: 150px;
+    display: inline-block;
+    background-color: rgb(241, 250, 238);
+    width: 100%;
+    .page-header-area {
+        padding: 62px 0px 57px;
+        .breadcrumb-item {
+            font-size: 18px;
+            line-height: 1;
+            padding-left: 0.5rem;
+            display: list-item;
+            a {
+                color: #457b9d;
+                text-decoration: none;
+                line-height: inherit;
+            }
+        }
+        .breadcrumb-item.active {
+            color: #457b9d;
+            cursor: pointer;
+        }
+        .page-header-title {
+            font-size: 48px;
+            margin-bottom: 0;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 0;
+            color: #1d3557;
+        }
+        .showing-pagination-results {
+            color: #457b9d;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 13px;
+            line-height: 1.2;
+            margin-top: 0;
+            cursor: pointer;
+        }
+    }
+}
+
+.section-space {
+    padding-bottom: 110px;
+    padding-top: 110px;
+
+    .login-register-border {
+        border-right: 1px solid #e5e5e5;
+        .btn-register-now {
+            font-size: 14px;
+            border-radius: 3px;
+            color: #ffffff;
+            background-color: #ff5a5a;
+            border: none;
+            line-height: 1;
+            text-align: center;
+            padding: 13px 32px 11px;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+            transition: 0.5s ease-in-out;
+            &:hover {
+                background-color: #1d3557;
+            }
+        }
+    }
+    .login-register-title {
+        h2 {
+            font-size: 24px;
+            margin: 0 0 15px;
+            line-height: 1;
+            text-transform: uppercase;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            color: #1d3557;
+        }
+        p {
+            line-height: 1.6;
+            color: #457b9d;
+            width: 85%;
+            margin-top: 0;
+            :last-child {
+                :last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .login-register-style {
+        margin: 33px 0 0;
+    }
+    .login-register-pr {
+        padding-right: 100px;
+    }
+    form {
+        display: block;
+        margin-top: 0em;
+    }
+    .login-register-input {
+        position: relative;
+        margin-bottom: 10px;
+        width: 70%;
+        input {
+            color: #1d3557;
+            width: 100%;
+            height: 51px;
+            background-color: transparent;
+            border: 1px solid #e5e5e5;
+            padding: 2px 80px 2px 16px;
+            font-size: 15px;
+            margin: 0;
+            font-family: inherit;
+            line-height: inherit;
+        }
+        .forgot {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            a {
+                color: #4bb1cf;
+                font-size: 15px;
+                transition: all 0.5s ease 0s;
+                line-height: inherit;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+    .remember-me-btn {
+        display: flex;
+        align-items: center;
+        margin: 19px 0 0px;
+        input {
+            cursor: pointer;
+            width: auto;
+            height: auto;
+            margin-right: 10px;
+            margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+          
+            
+        }
+        label {
+            color: #000000;
+            font-size: 15px;
+            display: inline-block;
+            cursor: default;
+            margin-left: 12px;
+            font-weight: 400;
+        }
+        .btn-register {
+            margin: 21px 0 0px;
+            .btn-register-now {
+                font-size: 14px;
+                border-radius: 3px;
+                color: #ffffff;
+                background-color: #ff5a5a;
+                border: none;
+                line-height: 1;
+                text-align: center;
+                padding: 13px 32px 11px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.login-register-pl {
+    padding-left: 100px;
+    .login-register-title {
+        h2 {
+            font-size: 24px;
+            margin: 0 0 15px;
+            line-height: 1;
+            text-transform: uppercase;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            color: #1d3557;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #457b9d;
+            width: 85%;
+            margin-top: 0;
+            :last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .login-register-style {
+        margin: 33px 0 0;
+        .login-register-input {
+            position: relative;
+            margin-bottom: 10px;
+           
+            input {
+                color: #1d3557;
+                width: 100%;
+                height: 51px;
+                background-color: transparent;
+                border: 1px solid #e5e5e5;
+                padding: 2px 80px 2px 16px;
+                font-size: 15px;
+                margin: 0;
+                font-family: inherit;
+                line-height: inherit;
+                
+            }
+        }
+        .login-register-paragraph {
+            border-bottom: 1px solid #e5e5e5;
+            border-top: 1px solid #e5e5e5;
+            padding: 15px 0;
+            margin: 30px 0 30px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.9;
+            margin: 0;
+        }
+        a {
+            font-size: 14px;
+            color: #ff5a5a;
+            transition: all 0.5s ease 0s;
+            line-height: inherit;
+            cursor: pointer;
+            text-decoration: none;
+           
+        }
+        .privacy{
+            margin-left: 5px;
+        }
+        .btn-register {
+            margin: 21px 0 0px;
+            .btn-register-now {
+                font-size: 14px;
+                border-radius: 3px;
+                color: #ffffff;
+                background-color: #ff5a5a;
+                border: none;
+                line-height: 1;
+                text-align: center;
+                padding: 13px 32px 11px;
+                text-transform: uppercase;
+                text-decoration: none;
+                transition: 0.5s ease-in-out;
+                &:hover {
+                    background-color: #1d3557;
+                }
+            }
+        }
+        .register-benefits {
+            background-color: #f3f3f3;
+            padding: 40px 30px;
+            margin-top: 60px;
+            h3 {
+                color: #1d3557;
+                font-size: 20px;
+                text-transform: uppercase;
+                margin: 0 0 20px;
+                font-family: "Playfair Display", serif;
+                font-weight: 600;
+                line-height: 1.2;
+            }
+            p {
+                line-height: 1.6;
+                font-size: 14px;
+                color: #1d3557;
+                margin: 0 0 28px;
+            }
+            ul {
+                margin: 0;
+                li {
+                    color: #457b9d;
+                    font-size: 16px;
+                    margin: 0 0 16px;
+                    list-style: none;
+                    :last-child {
+                        margin: 0 0 0;
+                    }
+                    .fa {
+                        font-size: 20px;
+                        color: #457b9d;
+                        margin-right: 12px;
+                        position: relative;
+                        top: 3px;
+                        display: inline-block;
+                        text-rendering: auto;
+                    }
+                }
+            }
+        }
+    }
+}
